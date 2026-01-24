@@ -1,7 +1,7 @@
 export const ROUTE_PATH = {
   DASHBOARD: "/dashboard",
   ORDER: "/order",
-  SETTING: "/setting",
+  PERSONAL_SETTING: "/setting",
   MARKETPLACE_SETTING: "/marketplace-setting",
 };
 
@@ -17,13 +17,13 @@ export const MENU_BAR_LIST = [
     path: ROUTE_PATH.ORDER,
   },
   {
-    sidebarTitle: "ตั้งค่าร้านค้า",
-    topbarTitle: "ตั้งค่าร้านค้า",
+    sidebarTitle: "ตั้งค่า Marketplace",
+    topbarTitle: "ตั้งค่า Marketplace",
     path: ROUTE_PATH.MARKETPLACE_SETTING,
   },
   {
-    sidebarTitle: "ตั้งค่าข้อมูลส่วนตัว",
-    topbarTitle: "ตั้งค่าข้อมูลส่วนตัว",
-    path: ROUTE_PATH.SETTING,
+    sidebarTitle: "ข้อมูลส่วนตัว",
+    topbarTitle: "ข้อมูลส่วนตัว",
+    path: ROUTE_PATH.PERSONAL_SETTING,
   },
 ];

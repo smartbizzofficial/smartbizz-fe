@@ -1,3 +1,8 @@
+export const CUSTOMER_ROUTE_PATH = {
+HOMELIST:"home-list"
+}
+
+
 export const ROUTE_PATH = {
   DASHBOARD: "/dashboard",
   ORDER: "/order",

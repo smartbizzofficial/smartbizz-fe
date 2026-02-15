@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --font-bai-jamjuree: var(--font-bai-jamjuree);
+}
+
+@layer base {
+  *,
+  body {
+    font-family: var(--font-bai-jamjuree), sans-serif !important;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -35,11 +46,26 @@ input {
 }
 
 input:focus {
-  outline: 1px solid black;
+  outline: 1px solid rgba(0, 0, 255, 0.355);
+}
+
+textarea {
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: white;
+  min-height: 10rem;
+}
+
+textarea:focus {
+  outline: 1px solid rgba(0, 0, 255, 0.355);
 }
 
 button {
   user-select: none;
   border-radius: 6px;
   cursor: pointer;
+  min-width: max-content;
+  height: 2.5rem;
 }

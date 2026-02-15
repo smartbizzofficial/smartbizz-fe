@@ -8,27 +8,40 @@ export const ROUTE_PATH = {
   ORDER: "/order",
   PERSONAL_SETTING: "/setting",
   MARKETPLACE_SETTING: "/marketplace-setting",
+  JOB: "/job",
+  JOB_CREATE: "/job/create",
+  CUSTOMER: "/customer",
+  PROPERTY: "/property",
+  PROPERTY_CREATE: "/property/create",
 };
 
 export const MENU_BAR_LIST = [
   {
-    sidebarTitle: "Dashboard",
-    topbarTitle: "Dashboard",
-    path: ROUTE_PATH.DASHBOARD,
+    sidebarTitle: "งาน",
+    path: ROUTE_PATH.JOB,
   },
   {
-    sidebarTitle: "รายการออร์เดอร์",
-    topbarTitle: "รายการออร์เดอร์",
-    path: ROUTE_PATH.ORDER,
+    sidebarTitle: "ลูกค้า",
+    path: ROUTE_PATH.CUSTOMER,
   },
   {
-    sidebarTitle: "ตั้งค่า Marketplace",
-    topbarTitle: "ตั้งค่า Marketplace",
-    path: ROUTE_PATH.MARKETPLACE_SETTING,
+    sidebarTitle: "บ้านพูลวิลล่า",
+    path: ROUTE_PATH.PROPERTY,
   },
-  {
-    sidebarTitle: "ข้อมูลส่วนตัว",
-    topbarTitle: "ข้อมูลส่วนตัว",
-    path: ROUTE_PATH.PERSONAL_SETTING,
-  },
+  // {
+  //   sidebarTitle: "Dashboard",
+  //   path: ROUTE_PATH.DASHBOARD,
+  // },
+  // {
+  //   sidebarTitle: "รายการออร์เดอร์",
+  //   path: ROUTE_PATH.ORDER,
+  // },
+  // {
+  //   sidebarTitle: "ตั้งค่า Marketplace",
+  //   path: ROUTE_PATH.MARKETPLACE_SETTING,
+  // },
+  // {
+  //   sidebarTitle: "ข้อมูลส่วนตัว",
+  //   path: ROUTE_PATH.PERSONAL_SETTING,
+  // },
 ];

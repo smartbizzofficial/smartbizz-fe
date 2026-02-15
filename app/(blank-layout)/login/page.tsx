@@ -34,7 +34,7 @@ export default function LoginPage() {
         <div className="flex gap-2 mt-4">
           <button
             formAction={login}
-            className="flex-1 bg-blue-600 text-white p-2 rounded hover:bg-blue-700"
+            className="flex-1 bg-blue-900 text-white p-2 rounded hover:bg-blue-700"
           >
             เข้าสู่ระบบ
           </button>

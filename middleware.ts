@@ -3,14 +3,14 @@ import { createClient } from "./utils/supabase/server";
 
 export async function middleware(request: NextRequest) {
   const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  // const {
+  //   data: { user },
+  // } = await supabase.auth.getUser();
 
   // ถ้าพยายามเข้า /dashboard แต่ไม่มี User (ยังไม่ Login) ให้เด้งไปหน้า Login
-  if (request.nextUrl.pathname.startsWith("/dashboard") && !user) {
-    return NextResponse.redirect(new URL("/login", request.url));
-  }
+  // if (request.nextUrl.pathname.startsWith("/dashboard") && !user) {
+  //   return NextResponse.redirect(new URL("/login", request.url));
+  // }
 
   return NextResponse.next();
 }

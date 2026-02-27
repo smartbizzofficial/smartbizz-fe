@@ -28,6 +28,7 @@ export default function LoginPage() {
             type="password"
             required
             className="border p-2 rounded focus:outline-blue-500"
+            placeholder="Password"
           />
         </div>
 
@@ -38,12 +39,12 @@ export default function LoginPage() {
           >
             เข้าสู่ระบบ
           </button>
-          <button
+          {/* <button
             formAction={signup}
             className="flex-1 border border-gray-300 p-2 rounded hover:bg-gray-100"
           >
             สมัครสมาชิก
-          </button>
+          </button> */}
         </div>
       </form>
     </div>

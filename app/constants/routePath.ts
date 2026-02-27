@@ -1,7 +1,7 @@
 export const CUSTOMER_ROUTE_PATH = {
-HOMELIST:"home-list"
-}
-
+  HOMELIST: "home-list",
+  LOGIN: "login",
+};
 
 export const ROUTE_PATH = {
   DASHBOARD: "/dashboard",
